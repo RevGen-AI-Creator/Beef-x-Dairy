@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data and outputs (keep folders, not contents)
+data/raw/*
+data/processed/*
+outputs/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!outputs/.gitkeep
+
+# Environment / secrets
+.env
+
+# OS / editors
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
